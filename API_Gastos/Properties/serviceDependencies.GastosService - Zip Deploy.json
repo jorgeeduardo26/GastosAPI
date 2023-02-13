@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqleduardo/databases/DB_Gastos",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:gastosDb_Connection"
+    }
+  }
+}
